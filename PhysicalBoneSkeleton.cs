@@ -1,9 +1,5 @@
 using Godot;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ProcedralAnimation.scripts.NodeBehaviour
 {
@@ -37,7 +33,7 @@ namespace ProcedralAnimation.scripts.NodeBehaviour
                 modStackPhysicalBones.FetchPhysicalBones();
                 modStackPhysicalBones.StartSimulation();
 
-                //If StopSimulation() is called, FixSkeleton() needs to be ran again before stuff works again
+                //If StopSimulation() is called, FixSkeleton() needs to be ran again before stuff will work again
                 modStackPhysicalBones.StopSimulation();
                 modStackPhysicalBones.StartSimulation();
 
