@@ -1,6 +1,6 @@
 # godot-PhysicalBone2D-Workaround
 
-Originally created by StrikeForceZero in GDScript, a workaround for an ongoing issue with PhysicalBone2D: https://github.com/godotengine/godot/issues/78367
+Originally created by StrikeForceZero in GDScript, a workaround for an ongoing issue with PhysicalBone2D in Godot 4.0.3+: https://github.com/godotengine/godot/issues/78367
 
 I created this because I like keeping my Godot solutions strict to a single language and imagine others prefer this as well.
 
